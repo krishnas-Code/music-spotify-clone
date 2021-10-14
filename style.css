@@ -1,0 +1,183 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+/* nav_Bar CSS */
+
+.navbar{
+    background-color: black;
+    color: white;
+    /* height: 35vh; */
+    display: flex;
+    align-items: center;
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar ul li{
+    font-family: 'Baloo Thambi 2', cursive;
+    list-style-type: none;
+    margin: 0 15px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+#Nav_logo{
+    
+    margin-top: 5px;
+    width: 52px;
+    
+}
+
+#logo_title{
+   	
+
+  
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nav_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .Nav_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Nav_Bar Done */
+/* Section */
+
+.section{
+
+    height: 75vh;
+    background-color: black;
+    color: white;
+    /* display: inline-block; */
+    width: 50%;
+    margin: 12px auto;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+.songConatainer {
+    /* margin-top: 20%; */
+    margin-left: 15px;
+}
+
+.songConatainer  h1{
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    padding-top: 53px;
+    padding-left: 22px;
+  
+
+   
+}
+#Song_Heading{
+    margin-bottom: 50px;
+}
+.songList{
+    /* margin-top: 20%; */
+
+    /* border: 2px solid red; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 22, 22);
+    width: 17vw;
+    height: 4vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 0px;
+
+}
+.songList img{
+    width: 25px;
+    border-radius: 10px;
+    margin: 0 25PX;
+}
+.song_Title{
+
+    margin: 0 25PX;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: bolder;
+
+
+
+}
+.songConatainer {
+    display: flex;
+    flex-direction: column                                              ;
+}
+
+/* Bottom */
+
+
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bottom #MyProgressBar{
+    width: 70%;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.bottom i{
+
+    padding: 2px 15px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.playing_gif{
+    /* display: flex; */
+    position: absolute;
+    left: 15%;
+    padding-top: 15px;
+}
+.playing_gif img{
+    width: 60px;
+    opacity: 0;  
+    transition:opacity 0.5s ease-in-out;
+}
+
+
